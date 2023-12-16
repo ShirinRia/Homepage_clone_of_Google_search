@@ -27,7 +27,7 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${!isOpen && "hidden"} flex justify-end absolute right-10 bg-white p-14`}>
+            <div className={`${!isOpen && "hidden"} rounded-xl flex justify-end absolute right-10 bg-white py-4 px-4`}>
                 <Menus/>
             </div>
            

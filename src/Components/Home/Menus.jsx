@@ -16,9 +16,9 @@ const Menus = () => {
 
     }, [])
     return (
-        <div>
+        <div className="grid grid-cols-3 justify-center  gap-5">
 
-           {menus.map(menu=><Menu key={menu.id}></Menu>)}
+           {menus.map(menu=><Menu key={menu.id} menu={menu}></Menu>)}
         </div>
     );
 };

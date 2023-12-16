@@ -1,49 +1,49 @@
 [
     {
       "id": 1,
-      "name": "Google Classroom",
+      "name": "Classroom",
       "link": "https://classroom.google.com/",
       "logo": "https://www.gstatic.com/classroom/logo_square_rounded.svg"
     },
     {
       "id": 2,
-      "name": "Google Docs",
+      "name": "Docs",
       "link": "https://docs.google.com/",
       "logo": "https://www.gstatic.com/images/branding/product/1x/docs_2020q4_48dp.png"
     },
     {
       "id": 3,
-      "name": "Google Play Store",
+      "name": "Play Store",
       "link": "https://play.google.com/store",
       "logo": "https://www.gstatic.com/android/market_images/web/favicon_v3.ico"
     },
     {
       "id": 4,
-      "name": "Google Drive",
+      "name": "Drive",
       "link": "https://drive.google.com/",
       "logo": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"
     },
     {
       "id": 5,
-      "name": "Google Sheets",
+      "name": "Sheets",
       "link": "https://sheets.google.com/",
       "logo": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png"
     },
     {
       "id": 6,
-      "name": "Google Translate",
+      "name": "Translate",
       "link": "https://translate.google.com/",
       "logo": "//ssl.gstatic.com/translate/favicon.ico"
     },
     {
       "id": 7,
-      "name": "Google News",
+      "name": "News",
       "link": "https://news.google.com/",
       "logo": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w16"
     },
     {
       "id": 8,
-      "name": "Google Slides",
+      "name": "Slides",
       "link": "https://slides.google.com/",
       "logo": "https://www.gstatic.com/images/branding/product/1x/slides_2020q4_48dp.png"
     },
@@ -67,7 +67,7 @@
     },
     {
       "id": 12,
-      "name": "Google Forms",
+      "name": "Forms",
       "link": "https://forms.google.com/",
       "logo": "https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png"
     }
