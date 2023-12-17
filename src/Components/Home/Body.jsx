@@ -1,9 +1,11 @@
 import { CgMenuGridO } from "react-icons/cg";
 
-import { VscSearch } from "react-icons/vsc";
+
 import { AiOutlinePlus } from "react-icons/ai";
 import { useState } from "react";
 import Menus from "./Menus";
+import SearchBar from "../Shared/SearchBar";
+import Logo from "../Shared/Logo";
 
 
 
@@ -18,9 +20,9 @@ const Body = () => {
             <div className="flex gap-4 items-center justify-end">
                 <a href='https://mail.google.com/mail/' target="_blank" className="text-xl " rel="noreferrer">Gmail</a>
                 <a className="text-xl ">Images</a>
-                <button onClick={() => setIsOpen(!isOpen)}><CgMenuGridO  className="w-8 h-8" /></button>
-                
-                   
+                <button onClick={() => setIsOpen(!isOpen)}><CgMenuGridO className="w-8 h-8" /></button>
+
+
                 <div className="avatar">
                     <div className="w-12 rounded-full  ">
                         <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
@@ -28,28 +30,16 @@ const Body = () => {
                 </div>
             </div>
             <div className={`${!isOpen && "hidden"} rounded-xl flex justify-end absolute right-10 bg-white py-4 px-4`}>
-                <Menus/>
+                <Menus />
             </div>
-           
+
             {/* writing google  in the middele*/}
             <div className="max-w-xl mx-auto ">
-               
-                <div className="flex justify-center items-center">
-                    <h1 className="text-9xl font-semibold">
-                        <span className="text-sky-600">G</span>
-                        <span className="text-red-600">o</span>
-                        <span className="text-orange-400">o</span>
-                        <span className="text-sky-600">g</span>
-                        <span className="text-lime-700">l</span>
-                        <span className="text-red-600">e</span>
-                    </h1>
-                </div>
+
+                <Logo size={'9xl'}/>
 
                 {/* search bar */}
-                <div className="flex bg-white rounded-full items-center py-4 px-10 gap-3 my-10 ">
-                    <VscSearch className=" text-xl" />
-                    <input type="text" placeholder="Search google or type a url" className="text-xl w-full " />
-                </div>
+                <SearchBar />
 
                 {/* shortcut pannel*/}
 
