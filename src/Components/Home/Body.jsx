@@ -17,18 +17,17 @@ const Body = () => {
     return (
         <div className="h-[100vh] bg-slate-200 px-8 py-4">
             {/* leftmenus */}
-            <div className="flex gap-4 items-center justify-end">
+            <nav className="flex gap-4 items-center justify-end">
                 <a href='https://mail.google.com/mail/' target="_blank" className="text-xl " rel="noreferrer">Gmail</a>
                 <a className="text-xl ">Images</a>
                 <button onClick={() => setIsOpen(!isOpen)}><CgMenuGridO className="w-8 h-8" /></button>
-
 
                 <div className="avatar">
                     <div className="w-12 rounded-full  ">
                         <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                     </div>
                 </div>
-            </div>
+            </nav>
             <div className={`${!isOpen && "hidden"} rounded-xl flex justify-end absolute right-10 bg-white py-4 px-4`}>
                 <Menus />
             </div>

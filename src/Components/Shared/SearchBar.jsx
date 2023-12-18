@@ -2,23 +2,24 @@ import { VscSearch } from "react-icons/vsc";
 
 import { useNavigate } from "react-router-dom";
 import useGooglesearch from "../../Hooks/useGooglesearch";
-import { useState } from "react";
+import { useContext } from "react";
+import { Authcontext } from "../../Context";
+
 
 const SearchBar = () => {
-    let navigate=useNavigate();
-    const [searchtext,setsearchtext]=useState('')
-    const {data}=useGooglesearch(searchtext);
+    const navigate=useNavigate();
+    const {setsearchfield}=useContext(Authcontext);
+
+    
     const search = (e) => {
         e.preventDefault();
         const form = new FormData(e.currentTarget)
 
         const text = form.get('search')
-        setsearchtext(text)
+        setsearchfield(text)
         navigate("/search")
-        alert(searchtext)
-        console.log(searchtext)
-        
-        console.log(data)
+        // alert(searchfield)
+       
     }
     return (
         <form onSubmit={search}>
