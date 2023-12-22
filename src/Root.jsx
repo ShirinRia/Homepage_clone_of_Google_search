@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 const Root = () => {
     return (
-        <div>
+        <div className="py-16 bg-slate-200 h-[100vh]">
            <Outlet/>
         </div>
     );

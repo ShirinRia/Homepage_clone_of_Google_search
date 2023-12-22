@@ -15,7 +15,7 @@ const Body = () => {
     const [isOpen, setIsOpen] = useState(false);
     // const scope = useMenuAnimation(isOpen);
     return (
-        <div className="h-[100vh] bg-slate-200 px-8 py-4">
+        <div className="h-[100vh]  px-8 py-4">
             {/* leftmenus */}
             <nav className="flex gap-4 items-center justify-end">
                 <a href='https://mail.google.com/mail/' target="_blank" className="text-xl " rel="noreferrer">Gmail</a>

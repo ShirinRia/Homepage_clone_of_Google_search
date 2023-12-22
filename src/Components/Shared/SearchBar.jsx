@@ -23,7 +23,7 @@ const SearchBar = () => {
     }
     return (
         <form onSubmit={search}>
-            <div className="flex bg-white border-2 border-slate-400 rounded-full items-center py-4 px-10 gap-3 my-10 ">
+            <div className="flex bg-white border-2 border-slate-400 rounded-full justify-center items-center py-4 px-10 gap-3 ">
                 <button type="submit" href='/search'><VscSearch className=" text-xl" /></button>
                 <input type="text" name="search" placeholder="Search google or type a url" className="text-xl w-full " />
             </div>
